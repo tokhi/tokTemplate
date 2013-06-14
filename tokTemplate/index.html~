@@ -1,6 +1,8 @@
 
 <!DOCTYPE html>
   <head>  
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Helvita">
     <title> tokCorp </title>
   </head>
   <body>

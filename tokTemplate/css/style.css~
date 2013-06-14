@@ -1,3 +1,14 @@
-html {background: gray url(../imgs/bg2.png); }
+html {background: gray url(../imgs/bg3.png); }
 
-#page-wrap { width: 800px; margin: 30px auto 10px; background: white;}
+#page-wrap { 
+	width: 800px; margin: 30px auto 10px; background: white;
+	background: white url(../imgs/stamp.png) top right no-repeat;
+	
+	}
+
+header { position: relative; padding: 30px 30px 30px 250px; border-bottom: 1px solid #666; }
+header p { position: absolute; right: 30px; bottom: 40px;}
+
+h1{ font: 36px Helvita, Arial, serif; text-transform: uppercase; text-shadow: 2px 2px 0 #d8d8dc; border-left: 1px solid #999; padding: 40px 0 20px 20px; }
+
+#logo { position: absolute; top: -30px; left: -70px; background: url(../imgs/logo2.png) no-repeat; width: 270px; height: 250px; }
