@@ -21,14 +21,14 @@
          <h2> Featured Tuxes</h2>
          <ul>
            <li>
-           <h3>Super Tuxes 1000 </h3>>
+           <h3>Super Tuxes 1000 </h3>
            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Nam cursus. Morbi ut mi. Nullam enim leo, egestas id, condimentum at, laoreet mattis, massa. Sed eleifend nonummy diam. Praesent mauris ante, elementum et, bibendum at, posuere sit amet, nibh. Duis tincidunt lectus quis dui viverra vestibulum. Suspendisse vulputate aliquam dui.</p>
            <img src="imgs/tux.png" alt="tux image" />
            <a href="#" class="button">View Tux </a>
            </li>
            
            <li>
-           <h3>Triple Tuxes </h3>>
+           <h3>Triple Tuxes </h3>
            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Nam cursus. Morbi ut mi. Nullam enim leo, egestas id, condimentum at, laoreet mattis, massa. Sed eleifend nonummy diam. Praesent mauris ante, elementum et, bibendum at, posuere sit amet, nibh. Duis tincidunt lectus quis dui viverra vestibulum. Suspendisse vulputate aliquam dui.</p>
            <img src="imgs/tux.png" alt="tux image" />
            <a href="#" class="button">View Tux </a>
