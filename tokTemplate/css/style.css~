@@ -1,4 +1,5 @@
 html {background: gray url(../imgs/bg3.png); }
+body {font-size: 12px;}
 
 #page-wrap { 
 	width: 800px; margin: 30px auto 10px; background: white;
@@ -6,9 +7,186 @@ html {background: gray url(../imgs/bg3.png); }
 	
 	}
 
-header { position: relative; padding: 30px 30px 30px 250px; border-bottom: 1px solid #666; }
-header p { position: absolute; right: 30px; bottom: 40px;}
+header { 
+  position: relative; padding: 30px 30px 30px 250px; border-bottom: 1px solid #666; 
+  background: url(../imgs/pink-header.png) no-repeat;
+  }
+header p { position: absolute; right: 30px; bottom: 50px;}
 
-h1{ font: 36px Helvita, Arial, serif; text-transform: uppercase; text-shadow: 2px 2px 0 #d8d8dc; border-left: 1px solid #999; padding: 40px 0 20px 20px; }
+h1 { 
+ font: 36px Helvita, Arial, serif; text-transform:
+ uppercase; text-shadow: 2px 2px 0 #d8d8dc; 
+ border-left: 1px solid #999; 
+ padding: 40px 0 20px 20px; 
+ margin: 0 30px 0 0;
+ }
+ 
+ h2{
+  color: #b26927;
+  text-transform: uppercase;
+  text-shadow: 2px 2px 0 #d8d8dc; 
+  font-weight: normal;
+  font: 32px
+  margin: 0 0 12px 0;
+  letter-spacing: 5px;
+}
 
 #logo { position: absolute; top: -30px; left: -70px; background: url(../imgs/logo2.png) no-repeat; width: 270px; height: 250px; }
+
+
+
+aside {
+	float: left;
+	width: 275px;
+}
+#main-content {
+	float: right;
+	width: 467px;
+	padding: 0 30px 0 0;
+}
+nav ul { list-style: none;}
+nav ul li a {
+  display: block;
+  padding: 10px 10px 10px 25px;
+  color: white;
+  font-size: 16px;
+  text-decoration: none;
+  background-color: #52b3cc;
+  margin: 0 0 5px 0
+  width: 235px;
+  margin: 0 0 12px -40px;
+
+}
+/* BEGIN -> button style */
+.button {
+	-moz-box-shadow:inset 0px 1px 0px 0px #bbdaf7;
+	-webkit-box-shadow:inset 0px 1px 0px 0px #bbdaf7;
+	box-shadow:inset 0px 1px 0px 0px #bbdaf7;
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #79bbff), color-stop(1, #378de5) );
+	background:-moz-linear-gradient( center top, #79bbff 5%, #378de5 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#79bbff', endColorstr='#378de5');
+	background-color:#79bbff;
+	-moz-border-radius:3px;
+	-webkit-border-radius:3px;
+	border-radius:3px;
+	border:2px solid #84bbf3;
+	display:inline-block;
+	color:#ffffff;
+	font-family:arial;
+	font-size:15px;
+	font-weight:bold;
+	padding:10px 24px;
+	text-decoration:none;
+	text-shadow:1px 1px 0px #528ecc;
+}.button:hover {
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #378de5), color-stop(1, #79bbff) );
+	background:-moz-linear-gradient( center top, #378de5 5%, #79bbff 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#378de5', endColorstr='#79bbff');
+	background-color:#378de5;
+}.button:active {
+	position:relative;
+	top:1px;
+}
+/* END -> button style */
+
+nav ul li a span {
+  right: 100%;
+  top: 5px;
+  width: 15px;
+  height: 100%
+  background-color: #52b3cc;
+}
+
+nav ul li:nth-child(2) a {
+  background-color: #bb9ddc;
+}
+nav ul li:nth-child(3) a {
+  background-color: #b26927;
+}
+nav ul li:nth-child(4) a {
+  background-color: #0e0a12;
+}
+
+.widgets {
+  width: 275px;
+  background: url(../imgs/line.png) top right no-repeat;
+  
+}
+.widgets h4{
+  color: #52b3cc;
+  text-align: right;
+  font-size: 16px;
+  text-transform: uppercase;
+  text-shadow: 2px 2px 0 #d8d8dc;
+  letter-spacing: 5px;
+  font-weight: normal;
+  margin: 0 0 12px 0;
+}
+.widgets .date {
+  background: #b26927;
+  color: white;
+  padding: 3px;
+  text-align: right;
+  letter-spacing: 3px;
+  font-size: 12px;
+  text-transform: uppercase;
+}
+.widgets h5 {
+  font-weight: normal;
+  font-size: 22px;
+  margin: 0 0 6px 30px;
+}
+.widgets p {
+  color: #999;
+  font-size: 12px;
+  margin: 0 0 0 30px;
+}
+#featured-widgets ul {
+  list-style: none;
+}
+#featured-widgets li {
+  position: relative;
+  margin: 0 0 20px 0;
+}
+
+#featured-widgets li h3 {
+  background: #52b3cc;
+  color: white;
+  font-size: 20px;
+  font-weight: normal
+  padding: 4px;
+  text-indent: 200px;
+}
+#featured-widgets li p {
+  padding: 0 0 0 180px;
+  color: #666;
+  line-height: 1.5;
+  margin: 12px 0;
+}
+#featured-widgets li img {
+  position: absolute;
+  top: -10px;
+  left: 0
+}
+#featured-widgets li .button {
+  position: absolute;
+  top: 98px;
+  left: 8px;
+}
+footer {
+  width: 800px;
+  color: white;
+  margin: 0 auto 20px;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+}
+#quote{
+  width: 50%
+  float: left;
+  text-align: center;
+}
+#copyright {
+  width: 50%
+  float: right;
+  text-align: center;
+}
